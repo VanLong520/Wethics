@@ -1,0 +1,16 @@
+h3 {
+    text-align: center;     
+    width: 100%;
+    color : white;
+    background-color: turquoise;
+    padding: 20px;
+    font-family: 'Arial';
+}
+p {
+    font-family: 'Arial';
+}
+
+a {
+    font-family: 'Arial';
+    color : turquoise;
+}

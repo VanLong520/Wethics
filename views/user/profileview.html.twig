@@ -1,0 +1,89 @@
+
+
+{% extends "general/layout.html.twig" %}
+
+{% block stylesheets %}
+{{parent()}}
+<link rel="stylesheet" href="css/user/profile.css">
+<link rel="stylesheet" href="css/separator.css">
+{% endblock %}
+
+{% block title %}
+{{parent()}} - Votre profil
+{% endblock %}
+
+
+{# {% block profileInfos %}
+
+<div id="userInfos">
+    <img id="userPicture" src="{images/profilePicture.png}"/>
+    <span id="userName">{{user.username}}</span>
+</div>
+{% endblock %} #}
+
+{% block body %}
+
+
+
+<div class="profileInfosBlock">
+    <div class="card">
+        <h2 class="card-header">Votre Profil</h2>
+        <div class="card-body">
+
+            <div class="row">
+
+                <div class="col-5">
+                    {% if user.username is not null %}
+                    <line>
+                        <p>
+                            <span style="font-weight:bold;">Nom d'utilisateur :</span>
+                            {{ user.username }}
+                        </p>
+                    </line>
+                    {% endif %}
+                    {% if user.mail is not null %}
+                    <line>
+                        <p>
+                            <span style="font-weight:bold;">Adresse e-mail :</span>
+                            {{ user.mail }}
+                        </p>
+                    </line>
+                    {% endif %}
+                    {% if user.institution is not null %}
+                    <line>
+                        <p>
+                            <span style="font-weight:bold;">Institution :</span>
+                            {% if user.institution.name is defined %}
+                                {{ user.institution.name }}
+                            {% else %}
+                                {{ user.institution }}
+                            {% endif %}
+                            
+                        </p>
+                    </line>
+                    {% endif %}
+                    {% if user.department is not null %}
+                    <line>
+                        <p>
+                            <span style="font-weight:bold;">Département :</span>
+                            {% if user.department.name is defined %}
+                              {{ user.department.name }}
+                            {% else %}
+                            {{ user.department }}
+                            {% endif %}
+
+                    </line>
+                    {% endif %}
+                    <div class="linksDiv">
+                        <a href="/edit_profile" class="btn btn-info">Modifier</a>
+                        
+                    </div>
+                    <form action="/logout?_method=DELETE" method="POST">
+                        <button type="submit">Log Out</button>
+                    </form>
+                </div>
+
+                
+
+{% endblock %}
+

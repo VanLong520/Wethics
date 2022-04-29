@@ -1,0 +1,152 @@
+/* Check username and mail */
+
+.formRowAndErrorSpan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.formRowAndErrorSpan > .form-group {
+    margin-bottom: 3px;
+}
+
+
+.primaryCard {
+    margin: auto;
+    margin-top: 30px;
+    width: 700px;
+}
+
+.secondaryCard {
+    margin: auto;
+    margin-top: 10px;
+    max-width: 530px;
+}
+
+.primaryCard > .card-header {
+    margin-bottom: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-family: 'Arial';
+    font-size: 20px;
+    width: 270px;
+}
+
+input[type="text"] {
+    margin-left: 10px;
+    width:250px;
+}
+
+input[type="email"] {
+    margin-left: 10px;
+    width:250px;
+}
+
+input[type="password"] {
+    margin-left: 10px;
+    width:250px;
+}
+
+select {
+    width:250px;
+}
+
+select option {
+    width:250px;
+}
+
+.btn-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-info:disabled {
+    color: black;
+    background-color: lightgrey;
+    border-color: grey;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#register_span {
+    font-family: 'Arial';
+    font-size: 50px;
+    font-weight: bold;
+    color: turquoise;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.conditionDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.conditionCheck {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    width: 30px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.conditionText {
+    font-size: 20px;
+}
+
+
+#specialCharsDetails{
+    margin-left: 40px;
+}
+
+#specialCharsDetails h6{
+    margin: 0px;
+}
+
+#specialCharsList{
+    display: flex;
+    color: grey;
+    max-width: 400px;
+}
+
+
+#pwdComplexityTutorialHeader {
+    color: darkslategrey;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#pwdComplexityTutorialHeader:hover {
+    cursor: pointer;
+}
+
+#pwdComplexityTutorialDetails {
+    font-size: 14px;
+}
+
+#pwdComplexityTutorialDetails p:last-child{
+    margin-bottom: 0px;
+}

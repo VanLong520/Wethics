@@ -1,0 +1,137 @@
+#homeNavBarOption {
+    color: rgb(40,40,40);
+}
+
+.btn-info {
+    font-size: 20px;
+}
+
+.searchAndBtnSpan {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.searchSpan {
+    display: flex;
+    flex-direction: row;
+}
+
+#searchInput {
+    height: 45px;
+    width: 300px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+#searchInput:focus, #searchInput.focus {
+    box-shadow: none;
+}
+
+#searchBtn {
+    border: solid 1px lightgrey;
+    border-left: none;
+    background-color: rgb(240,240,240);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#searchBtn:hover {
+    -webkit-animation: btnHover 0.5s forwards;
+    animation: btnHover 0.5s forwards;
+}
+@keyframes btnHover {
+    from {}
+    to {background-color: rgb(200,200,200);}
+}
+
+#magnifyingGlass {
+    width: 20px;
+    height: 20px;
+}
+
+#newCaseBtn {
+    height: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#getAllCasesBtn {
+    height: 45px;
+    background-color: rgb(150,150,150);
+    color: white;
+    font-size: 20px;
+}
+#getAllCasesBtn:hover {
+    background-color: rgb(120,120,120);
+}
+
+.caseName {
+    font-family: 'Arial';
+    font-size: 25px;
+}
+
+.caseTags {
+    font-family: 'Arial';
+    font-size: 20px;
+    color: mediumblue;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#casesDivList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#casePreviewsList {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit,minmax(600px,750px));
+    grid-gap: 30px;
+}
+
+.noCaseDiv {
+    margin: 10px;
+}
+
+.noCaseP {
+    font-size: 16px;
+    margin: 0px;
+}
+
+#caseTitle {
+    text-align: center;
+}
+
+
+.noResult , .searching {
+    max-width: 500px;
+    text-align: center;
+    border: solid 1px grey;
+    background-color: rgb(250,250,250);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*
+.caseCreatorAndRights {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+}
+.caseCreator {
+    font-family: 'Arial';
+    font-size: 20px;
+}
+
+.caseRights {
+    font-family: 'Arial';
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}*/

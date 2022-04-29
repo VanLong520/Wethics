@@ -1,0 +1,68 @@
+
+
+
+.nameAndDescription {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: 'Arial';
+    border-color: #5865E7;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px 0px #5865E7;
+/*
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;*/
+}
+
+.name {
+
+    font-family: 'Arial';
+    font-size:25px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    background-color: #5865E7;
+    padding:5px;
+    box-shadow: 0px 2px 3px 0px darkgrey;
+}
+
+.listOfMessages{
+    overflow-y: scroll;
+    /*background-color: white;*/
+    padding: 10px;
+    margin-top: 20px;
+    height: 500px;
+
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.description {
+    font-family: 'Arial';
+    font-size:18px;
+    margin: 10px;
+
+
+}
+
+#messageInput {
+
+    width: 80%;
+    height: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 15px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 0px;
+}

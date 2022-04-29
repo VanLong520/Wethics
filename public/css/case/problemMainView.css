@@ -1,0 +1,165 @@
+
+
+/*#discussionsAndLateralBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+#lateralBarDiv {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 300px;
+    width: 60%;
+    padding-right: 20px;
+}
+
+#discussionsDiv {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-left-style: solid;
+    border-width: 2px;
+    border-color: #5865E7;
+    padding-left: 20px;
+}*/
+
+
+
+/*
+.creationNote {
+    font-family: 'Arial';
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.informationNote {
+    font-family: 'Arial';
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.userMessageContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.otherUsersMessageContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.userMessage {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: turquoise;
+    font-family: 'Arial';
+    font-size:15px;
+    color: black;
+    padding:15px;
+    border-style: solid;
+    border-color: turquoise;
+    border-radius: 15px;
+    box-shadow: 3px 3px darkturquoise;
+    margin-left: 30%;
+}
+
+.otherUserMessage {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: orchid;
+    font-family: 'Arial';
+    font-size:15px;
+    color: black;
+    padding:15px;
+    border-style: solid;
+    border-color: orchid;
+    border-radius: 15px;
+    box-shadow: 3px 3px darkorchid;
+    margin-right: 30%;
+}
+
+.otherUserName {
+    font-family: 'Arial';
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.messageHour {
+    margin-top:5px;
+    font-weight: bold;
+    color:darkslategrey;
+    text-align: right;
+}
+*/
+
+
+
+
+
+
+
+.markBtn {
+    font-size: 14px;
+    background-color: #0EE755;
+    border-style: solid;
+    border-color: #0EE755;
+    border-radius: 5px;
+}
+
+.arrowImg {
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+
+@keyframes rotateArrowAnimation {
+    from {
+        transform: translateX(Opx);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes reverseRotateArrowAnimation {
+    from {
+        transform: translateX(Opx);
+    }
+    to {
+        transform: rotate(-180deg);
+    }
+}
+
+
+.objectiveArrowImgBox:click
+{
+    -webkit-animation: rotateArrowAnimation 1s linear alternate infinite;
+    animation: rotateArrowAnimation 1s linear alternate infinite;
+}
+
+.propositionArrowImgBox:click
+{
+    -webkit-animation: rotateArrowAnimation 1s linear alternate infinite;
+    animation: rotateArrowAnimation 1s linear alternate infinite;
+}
+
+
+

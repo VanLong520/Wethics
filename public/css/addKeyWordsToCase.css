@@ -1,0 +1,75 @@
+.card {
+    max-width: 500px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label:after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+}
+
+#addKeyWordBtn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#validatedKeyWords {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px lightgrey;
+    background-color: rgb(240,240,240);
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+.deleteKeyWordBtn {
+    border: solid 1px red;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 3px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+.keyWordLi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.keyWordLi {
+    margin: auto;
+}
+
+label {
+    font-family: 'Arial';
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+label {
+    width: 130px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.buttonsSpan {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonsSpan > button {
+    font-size: 20px;
+}
+.buttonsSpan > a {
+    margin-left: 10px;
+    font-size: 20px;
+}

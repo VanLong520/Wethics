@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/connexion.css">
+</head>
+<span id="register_span">Inscription</span>
+
+<form action="/register" method="POST">
+    <div class="logins">
+        
+        <div class="input_block">
+            <label for="id">Identifiant</label>
+            <input type="text" name="id" required>
+        </div>
+        <div class="input_block">
+            <label for="mail">Adresse e-mail</label>
+            <input type="email" name="mail" required>
+        </div>
+        <div class="input_block">
+            <label for="password">Mot de passe</label>
+            <input type="password" name="password" required>
+        </div>
+        <div class="input_block">
+            <label for="passwordConf">Confirmation du mot de passe</label>
+            <input type="password" name="passwordConf" required>
+        </div>
+    </div>
+    <input type="submit" name="submit" value="Confirmer">
+</form>
+
+
+</html>

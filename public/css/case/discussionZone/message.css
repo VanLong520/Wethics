@@ -1,0 +1,79 @@
+.modal-dialog {
+    max-width: 800px;
+}
+
+
+.selfMessageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.messageContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.self_message{
+    /*color*/
+    color:black;
+    background-color: #59ede7e2;
+    box-shadow: 5px 5px 5px 0px #10b5c5ff;
+    
+    /* shape */
+    min-width: 200px;
+    max-width: 500px;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+
+    /* contents */
+    padding: 10px;
+    word-wrap: break-word;
+    
+    /* position */
+    margin: 10px;
+    margin-left: 30px;
+    align-self: flex-end;
+
+}
+
+.message{
+    /* color*/
+    color:black;
+    background-color: #c7b7ffe2;
+    box-shadow: 5px 5px 5px 0px #8f49c8ff;
+    
+    /* shape */
+    min-width: 200px;
+    max-width: 700px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+
+    /* contents */
+    padding: 10px;
+    word-wrap: break-word;
+
+    /* position */
+    margin: 10px;
+    margin-right: 30px;
+    align-self: flex-start;
+}
+
+.message_user{
+    font-weight: bold;
+    font-family: calibri, sans-serif;
+}
+
+.message_text{
+    margin-left: 5px;
+    font-family: calibri, sans-serif;
+}
+
+.message_date{
+    text-align: right;
+    font-style: italic;
+    font-size: 11px;
+    margin-top: 5px;
+    color: #727272ff;
+}

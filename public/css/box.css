@@ -1,0 +1,76 @@
+.mainBox {
+    margin : 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: 'Arial';
+    margin-bottom: 20px;
+
+    background-color: #C2F4CA;
+    border-bottom-left-radius: 10;
+    border-bottom-right-radius: 10;
+
+}
+
+.mainBoxTitle {
+
+    font-family: 'Arial';
+    font-size:25px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    background-color: #5FF277;
+    padding:5px;
+    box-shadow: 0px 2px 3px 0px #3AA44B;
+}
+
+
+
+.mainBoxContent {
+    font-family: 'Arial';
+    font-size:18px;
+    margin: 10px;
+}
+
+
+
+
+
+.box {
+    margin : 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: 'Arial';
+    border-color: #5865E7;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px 0px #5865E7;
+}
+
+.boxTitle {
+
+    font-family: 'Arial';
+    font-size:25px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    background-color: #5865E7;
+    padding:5px;
+    box-shadow: 0px 2px 3px 0px darkgrey;
+}
+
+
+
+.boxContent {
+    font-family: 'Arial';
+    font-size:18px;
+    margin: 10px;
+}

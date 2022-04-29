@@ -1,0 +1,114 @@
+#infoNavBarOption {
+    color: rgb(40,40,40);
+}
+
+.example {
+    border: solid 1px lightgrey;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    margin: 5px;
+    border: solid 1px lightgrey;
+}
+.example > .card-header {
+    font-size: 25px;
+}
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+#pdfGuideBtn {
+    margin-left: 50px;
+}
+
+
+.creationImage {
+    max-height: 470px;
+    width: auto;
+}
+.caseCreationDiv {
+    display: flex;
+    flex-direction: column;
+}
+.creationImagesSpan {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.caseViewDiv {
+    display: flex;
+    flex-direction: column;
+}
+#caseViewNavBarImage {
+    max-width: 800px;
+    height: auto;
+}
+
+
+.objectivesDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.objectivesImagesSpan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.objectivesImage {
+    max-width: 500px;
+    height: auto;
+}
+
+
+.propositionsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.propositionsSubSpan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.propositionsSubSpan > div {
+    width: 60%;
+}
+.propositionsImage {
+    max-width: 800px;
+    height: auto;
+}
+.approachDiv {
+    display: flex;
+    flex-direction: column;
+}
+#propositionForm {
+    width: 39%;
+    height: auto;
+}
+
+
+.administrationDiv {
+    display: flex;
+    flex-direction: column;
+}
+#navBarImage {
+    max-width: 800px;
+    height: auto;
+}
+
+
+.bottomNavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bottomNavBar .btn-info {
+    margin-bottom: 30px;
+}

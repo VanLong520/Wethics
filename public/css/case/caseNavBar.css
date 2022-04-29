@@ -1,0 +1,66 @@
+.caseNavBar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size:18px;
+}
+
+.caseNavBar a {
+    margin-right: 20px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.button-dropdown-menu{
+    box-sizing: content-box !important;
+    height: 75%; /* TODO: A changer, pas responsive */
+}
+
+.dropdown-item-perso{
+    left: 0px;
+    white-space:normal;
+    margin-right:0px !important;
+}
+
+.caseNavBar .list-group-item {
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#list-general-list[class*="active"] {
+    background-color: #4175F9;
+    border-color: #4175F9;
+}
+
+#list-care-objectives-list[class*="active"] {
+    background-color: #A788EC;
+    border-color: #A788EC;
+}
+
+#list-ethic-objectives-list[class*="active"] {
+    background-color: #95B4CC;
+    border-color: #95B4CC;
+}
+
+#list-propositions-list[class*="active"] {
+    background-color: #39DD8A;
+    border-color: #39DD8A;
+}
+
+#list-participants-list[class*="active"] {
+    background-color: #C88EC7;
+    border-color: #C88EC7;
+}
+
+#list-files-list[class*="active"] {
+    background-color: #FA8072;
+    border-color: #FA8072;
+}
+
+#list-history-list[class*="active"] {
+    background-color: rgb(140,140,140);
+    border-color: rgb(140,140,140);
+}

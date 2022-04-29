@@ -1,0 +1,213 @@
+body {
+    margin: 0px;
+}
+
+#wethicsHeader {
+    margin:0px; 
+    background-color: cornflowerblue;
+    min-height:100px;
+}
+
+#headerRight {
+    margin-left:auto;
+    margin-right:5px;
+}
+
+.navbar {
+    color: white;
+}
+.navbar-expand-sm {
+    color: white;
+}
+.navbar-light {
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top: solid 1px lightgrey;
+    border-bottom: solid 1px lightgrey;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-item {
+    color: white;
+}
+
+.nav-link {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#mainLink {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#mainLink:hover {
+    text-decoration: none;
+}
+
+#navbarDropdownMenuLink {
+    padding-right: 18px;
+}
+
+#vr {
+    border-right: solid 1px lightgrey;
+    margin-right: 10px;
+}
+
+.exportLogo {
+    height: auto;
+    min-height: 35px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+#profileNavBarOption {
+    display: flex;
+    flex-direction: row;
+}
+
+.notificationCount {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    padding: 3px;
+    width: calc(12px + 6px);
+    height: calc(12px + 6px);
+    border-radius: 50%;
+    border: solid 1px red;
+}
+
+
+.exceptionContainer {
+    max-width: 500px;
+    border: solid 1Px lightgrey;
+    background-color: rgb(250,250,250);
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+#aWithoutColor{
+    color: inherit;
+    text-decoration: none;
+}
+
+#aWithoutColor:hover{
+    color:inherit;
+    text-decoration:none;
+}
+
+/*
+h1 {
+    font-family: 'Arial';
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Arial';
+    font-size: 20px;
+    margin:0px;
+}
+
+.wethicsHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: stretch;
+    width: 100%;
+    background-color: darkturquoise;
+    justify-content: space-between;
+}
+
+.wethicsTitle {
+    color : white;
+    padding: 20px;
+}
+
+.logoutBtn {
+    height:35px;
+    font-family: 'Arial';
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    border-color: red;
+    border-radius: 15px;
+    box-shadow: "5px 5px 5px red";
+    padding: 5px;
+}
+
+.logoutBtn:hover {
+    background-color: #dd0000;
+    border-color: #dd0000;
+}
+
+#userInfos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 35px;
+    margin-left: 50px;
+}
+
+#userPicture {
+    width: 100px;
+    height: 100px;
+}
+
+#userName {
+    font-family: 'Arial';
+    font-size: 18px;
+}
+
+
+.mainBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eeeeee;
+    padding:20px;
+    width: 100%;
+}
+
+.mainContent > form {
+    width: 80%;
+}
+
+
+.inputBlock {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#infosContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+*/

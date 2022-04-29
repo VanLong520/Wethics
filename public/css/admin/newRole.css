@@ -1,0 +1,443 @@
+.greetTitle {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+#mainCard {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Sub cards */
+
+.subCard {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-radius: 10px;
+}
+.subCard:not(:last-child) {
+    margin-bottom: 30px;
+}
+.subCardHeader {
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(240,240,240);
+    padding: 10px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom: solid 1px lightgrey;
+}
+.subCardBody {
+    padding: 10px;
+}
+.subCardFooter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.checkAllBtn {
+    background-color: rgb(240,240,240);
+    border-radius: 5px;
+}
+.checkAllBtn:hover {
+    animation: btnHover 0.5s forwards;
+}
+.subSectionCheckAllBtn {
+    background-color: rgb(240,240,240);
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+}
+.subSectionCheckAllBtn:hover {
+    animation: btnHover 0.5s forwards;
+}
+@keyframes btnHover {
+    from {}
+    to {background-color: rgb(200,200,200);}
+}
+
+/*#adminSubCard {
+    border-color: rgb(23,162,184);
+}
+#adminSubCard > .subCardHeader {
+    border-color: rgb(23,162,184);
+    background-color: rgb(23,162,184);
+}
+#adminSubCard button {
+    border-color: rgb(23,162,184);
+    background-color: rgb(23,162,184);
+}
+#adminSubCard .help {
+    color: rgb(23,162,184);
+    border: solid 1px rgb(23,162,184);
+}
+
+#approachSubCard {
+    border-color: #4175F9;
+}
+#approachSubCard > .subCardHeader {
+    border-color: #4175F9;
+    background-color: #4175F9;
+}
+#approachSubCard button {
+    border-color: #4175F9;
+    background-color: #4175F9;
+}
+#approachSubCard .help {
+    color: #4175F9;
+    border: solid 1px #4175F9;
+}
+
+#objectivesSubCard {
+    border-color: #A788EC;
+}
+#objectivesSubCard > .subCardHeader {
+    border-color: #A788EC;
+    background-color: #A788EC;
+}
+#objectivesSubCard button {
+    border-color: #A788EC;
+    background-color: #A788EC;
+}
+#objectivesSubCard .help {
+    color: #A788EC;
+    border: solid 1px #A788EC;
+}
+
+#propositionsSubCard {
+    border-color: #39DD8A;
+}
+#propositionsSubCard > .subCardHeader {
+    border-color: #39DD8A;
+    background-color: #39DD8A;
+}
+#propositionsSubCard button {
+    border-color: #39DD8A;
+    background-color: #39DD8A;
+}
+#propositionsSubCard .help {
+    color: #39DD8A;
+    border: solid 1px #39DD8A;
+}
+
+#participantsSubCard {
+    border-color: #C88EC7;
+}
+#participantsSubCard > .subCardHeader {
+    border-color: #C88EC7;
+    background-color: #C88EC7;
+}
+#participantsSubCard button {
+    border-color: #C88EC7;
+    background-color: #C88EC7;
+}
+#participantsSubCard .help {
+    color: #C88EC7;
+    border: solid 1px #C88EC7;
+}
+
+#filesSubCard {
+    border-color: #FA8072;
+}
+#filesSubCard > .subCardHeader {
+    border-color: #FA8072;
+    background-color: #FA8072;
+}
+#filesSubCard button {
+    border-color: #FA8072;
+    background-color: #FA8072;
+}
+#filesSubCard .help {
+    color: #FA8072;
+    border: solid 1px #FA8072;
+}
+
+#keyWordsSubCard {
+    border-color: #87CEFA;
+}
+#keyWordsSubCard > .subCardHeader {
+    border-color: #87CEFA;
+    background-color: #87CEFA;
+}
+#keyWordsSubCard button {
+    border-color: #87CEFA;
+    background-color: #87CEFA;
+}
+#keyWordsSubCard .help {
+    color: #87CEFA;
+    border: solid 1px #87CEFA;
+}
+
+#othersSubCard {
+    border-color: rgb(140,140,140);
+}
+#othersSubCard > .subCardHeader {
+    border-color: rgb(140,140,140);
+    background-color: rgb(140,140,140);
+}
+#othersSubCard button {
+    border-color: rgb(140,140,140);
+    background-color: rgb(140,140,140);
+}
+#othersSubCard .help {
+    color: rgb(140,140,140);
+    border: solid 1px rgb(140,140,140);
+}*/
+
+
+
+/* List of users */
+
+.card {    
+    width: 800px;
+    margin: 20px;
+}
+
+#helpWindow .card-header {
+    margin-bottom: 1rem;
+    background-color: #17a2b8;
+    color: white;
+    font-weight: bold;
+}
+
+.row {
+    margin: 0px;
+}
+.row > .col-4 {
+    padding-left: 0px;
+    padding-right: 30px;
+}
+
+.col-5 {
+    margin-left: 10px;
+}
+
+.badge-danger {
+    font-size: 15px;
+}
+
+.badge-info {
+    font-size: 15px;
+}
+
+.badge-info:not([href]) {
+    background-color: lightgrey;
+    color: black;
+    border-color: black;
+}
+
+.badge-info:not([href]):hover {
+    background-color: lightgrey;
+    color: black;
+    border-color: black;
+    cursor: pointer;
+}
+
+.addBtnRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+
+label.required:after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+}
+
+
+/* Help window */
+
+#helpWindow {
+    display: none;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+
+/* Roles and permissions */
+
+.active {
+    /*background-color: #17a2b8;*/
+}
+
+.roleRow {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(230,230,230);
+    padding: 5px;
+    border: solid 1px rgba(0,0,0,0.125);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.roleName {
+    font-size: 20px;
+}
+
+.roleRank {
+    font-size: 20px;
+}
+
+.userRoleSpan {
+    padding-left : 10px;
+}
+
+.addUserBtn {
+    margin-top: 10px;
+    width: 100px;
+}
+
+.authorizedSpan {
+    display: flex;
+    justify-content: space-between;
+    background-color: palegreen; /*#96ceb4;*/
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.unauthorizedSpan {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fc9c9c;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/* Help buttons */
+
+.help {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+    
+    background-color: white;
+    padding: 3px;
+    margin: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: calc(1em + 6px);
+    height: calc(1em + 6px);
+    border-radius: 50%;
+    border: solid 1px black;
+}
+
+.help:hover {
+    cursor: pointer;
+}
+
+
+/* Columns */
+
+#role_name {
+    width: 300px;
+}
+
+hr {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+.permissionSpan {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rankSpan {
+    display: flex;
+    max-width: 600px;
+    margin-bottom: 10px;
+}
+
+#role_rank {
+    width: 230px;
+}
+
+.rankSpan > .help {
+    margin-left: 20px;
+}
+
+.custom-control-input {
+    margin: 0px;
+    padding: 0px;
+    z-index: auto;
+}
+
+.custom-switch {
+    padding-left: 10px;
+}
+
+
+/* Help window */
+
+#helpWindow .card-header {
+    font-size: 18px;
+    margin: 0px;
+}
+
+#helpWindow {
+    margin: 0px;
+    max-width: 100%;
+}
+
+
+#deleteRoleWarning {
+    color: red;
+    max-width: 400px;
+    margin-left: 5px;
+}
+
+#roleExistsWarning {
+    color: red;
+    max-width: 400px;
+    margin-left: 5px;
+}
+
+#submitDiv {
+    margin-left: 20px;
+    margin-top: 27px;
+}
+
+
+
+/* Evaluation methods */
+#authorizedEvaluationMethodsContainer {
+    padding: 10px;
+}
+
+.evaluationMethodsSubSection:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.evaluationMethodsSubSection h6 {
+    font-weight: bold;
+    color: darkslategrey;
+    margin: 0px;
+}
+
+.evaluationMethodsSubSection .form-group {
+    font-size: 14px;
+}

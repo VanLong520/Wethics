@@ -1,0 +1,153 @@
+#profileNavBarOption {
+    color: rgb(40,40,40);
+}
+
+line {
+    display: flex;
+    flex-direction: row;
+}
+
+.profileInfosBlock {
+    display: flex;
+    flex-direction: column;
+    max-width: 950px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.linksDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 300px;
+    margin-bottom:10px;
+}
+
+.card-header {
+    background-color: cornflowerblue; /*#17a2b8ff;*/
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Files authorizations */
+.fileRowsList {
+    border: solid 1px lightgrey;
+}
+
+.fileRow {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.buttonsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 5px;
+}
+
+.buttonsDiv > .badge {
+    font-size: 14px;
+}
+
+
+/* Invitations */
+.invitationRowsList {
+    border: solid 1px lightgrey;
+}
+
+.invitationRow {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+
+/* Cases table */
+.separatorTitle {
+    font-size: 25px;
+}
+
+.tableDiv {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead {
+    border: solid 1px cornflowerblue;
+    font-size: 18px;
+}
+
+thead td {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+}
+/* thead td:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+} */
+
+tbody {
+    border: solid 1px lightgrey;
+    border-top-width: 2px;
+}
+
+tbody td {
+    padding: 10px;
+}
+
+td:first-child { max-width: 300px;  text-overflow: ellipsis;}
+td:nth-child(2) { max-width: 200px;}
+td:nth-child(3) { max-width: 200px;}
+td:nth-child(4) { max-width: 200px;}
+td:nth-child(5) { max-width: 200px;}
+td:nth-child(6) { max-width: 200px;}
+
+td a:hover {
+    text-decoration: none;
+}
+
+.oddRow {
+    background-color: rgb(250,250,250);
+}
+
+.evenRow {
+    background-color: rgb(240,240,240);
+}
+
+.adminIcon {
+    font-size: 12px;
+    font-weight: bold;
+    color: slategrey;
+}
+
+.lexiconLink {
+    display: flex;
+    font-size: 1.1em;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(70,130,180,0.8);
+    margin-left: 5px;
+    padding: 3px;
+    width: calc(1em + 6px);
+    height: calc(1em + 6px);
+    border-radius: 50%;
+    border: solid 1px darkblue;
+}
+.lexiconLink:hover{
+    color: white;
+    text-decoration: none;
+}

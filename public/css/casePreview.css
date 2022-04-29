@@ -1,0 +1,145 @@
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.cardContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card:hover {
+    -webkit-animation: cardHover 0.5s forwards;
+    animation: cardHover 0.5s forwards;
+}
+@keyframes cardHover  {
+    from {}
+    to {box-shadow: 0px 5px 5px grey;}
+}
+
+.caseNameRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caseNameRow .buttonsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 5px;
+}
+
+.caseNameRow .badge {
+    font-size: 14px;
+}
+
+.accepted .card-header {
+    background-color: cornflowerblue; /*#3cc9cb #17a2b8ff;*/
+    color: white;
+}
+
+.notAccepted .card-header {
+    background-color: limegreen; /*#3cc9cb #17a2b8ff;*/
+    color: white;
+}
+
+.keyWords {
+    font-size: 18px;
+}
+
+.keyWord:hover {
+    color: lightblue;
+}
+
+.addKeyWordsBtn {
+    background-color: rgb(240,240,240);
+    border-radius: 10px;
+    line-width: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-body {
+    font-size: 20px;
+    text-justify: inter-word;
+    word-break: normal;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footerSubdiv:first-child {
+    margin-right: 20px;
+}
+
+hr {
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.descriptionP {
+    line-clamp: 4;
+    -webkit-line-clamp: 4;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.casePreview{
+    /*color*/
+    color:black;
+    background-color: #13e0ffe2;
+    box-shadow: 5px 5px 5px 0px #0081ccff;
+    
+    /* shape */
+    width: 70%;
+    border-radius: 10px;
+
+    /* contents */
+    padding: 10px;
+    word-wrap: break-word;
+    
+    /* position */
+    margin: 10px;
+    align-self: center;
+}
+.casePreview:hover {
+    background-color: #4ba8f6e2;
+    box-shadow: 5px 5px 5px 0px #4340b8ff;
+}
+
+.caseTitle{
+    display: flex;
+    flex-direction: row;
+}
+
+.hashtags{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-family: calibri, sans-serif;
+    text-decoration: unset;
+    color: black;
+}
+
+/*.description{
+    margin: 15px;
+    font-family: calibri, sans-serif;
+}*/
+
+.listOfUsers{
+    text-align: center;
+    font-family: calibri, sans-serif;
+}

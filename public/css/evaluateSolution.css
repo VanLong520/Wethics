@@ -1,0 +1,353 @@
+.mainContent {
+    display: flex;
+    flex-direction: row;
+}
+
+#lateralBar {
+    background-color: lightblue;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 15px;
+    margin-right: 20px;
+    padding: 10px;
+    width: 20%;
+}
+
+#informationsTitle {
+    font-family: 'Arial';
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+}
+
+.lateralBarSubDiv {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.lateralBarSubDivTitle {
+    font-family: 'Arial';
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.lateralBarP {
+    font-family: 'Arial';
+    font-size: 15px;
+    margin: 5px;
+}
+
+ul {
+    margin: 5px;
+    padding-left: 20px;
+}
+
+li {
+    font-family: 'Arial';
+    font-size: 15px;
+    margin: 5px;
+}
+
+
+
+#evaluationInterface {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#propositionName {
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+} 
+
+#modelsAndForms {
+    display: flex;
+    flex-direction: row;
+}
+
+#modelsListDiv {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.careDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.modelName {
+    font-family: 'Arial';
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.modelDetails {
+    font-family: 'Arial';
+    font-size: 15px;
+    color: black;
+    margin: 5px;
+}
+
+
+#evaluationFormsDiv {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+
+.evaluationHeader {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Arial';
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/*
+table {
+    width: 100%;
+}
+
+.headerTd {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.evaluationFormDiv {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    font-family: 'Arial';
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.evaluationTd {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Arial';
+    font-size: 30px;
+    height: 100%;
+    width: 30%;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 1px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.objectiveTd{
+    background-color: white;
+    width: 33%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-style: solid;
+}
+
+.lastTd {
+    border-right-style: solid;
+    border-right-color: black;
+    border-width: 1px;
+}
+
+.radioSpan {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+tr {
+    padding: 0px;
+    margin: 0px;
+}
+
+td {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+#neutralTd {
+    width: 9%;
+}
+
+.radioBtnContainer {
+    display: flex;
+    flex-direction: row;
+    width: 33.33%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.highBenefit {
+    background-color: dodgerblue;
+}
+.mediumBenefit {
+    background-color: lightgreen;
+}
+.lowBenefit {
+    background-color: yellow;
+}
+
+.neutral {
+    background-color: white;
+    width: 100%;
+}
+
+.lowRisk {
+    background-color: yellow;
+}
+.mediumRisk {
+    background-color: darkorange;
+}
+.highRisk {
+    background-color: red;
+}
+
+input[type="radio"] {
+    width: 20px;
+    -ms-transform: scale(1.0); // IE 9
+    -webkit-transform: scale(1.0); // Chrome, Safari, Opera
+    transform: scale(1.0);
+}
+
+input[type="submit"] {
+    
+}*/
+
+.headerObjectiveSpan {
+    width: 25%;
+    text-align: center;
+}
+
+.headerBenefitSpan {
+    width: 25%;
+    text-align: center;
+}
+
+.headerNeutralSpan {
+    width: 25%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.headerRiskSpan {
+    width: 25%;
+    text-align: center;
+}
+
+.evaluationFormDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.objectiveSpan {
+    display: flex;
+    width: 25%;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.benefitRadioSpan {
+    display: flex;
+    width: 75%;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.neutralRadioSpan {
+    display: flex;
+    width: 25%;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.riskRadioSpan {
+    display: flex;
+    width: 25%;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#mark_value {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.form-check {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width:100px;
+    font-family: 'Arial';
+    font-size: 16px;
+    text-align: center;
+}
+
+fieldset {
+    width: 100%;
+}

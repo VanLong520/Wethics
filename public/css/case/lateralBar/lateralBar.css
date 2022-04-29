@@ -1,0 +1,43 @@
+.discussionTool {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: 'Arial';
+    border-color: #5865E7;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px 0px #5865E7;
+}
+
+#generalDiscussionTool {
+    background-color: #5865E7;
+    font-family: 'Arial';
+    font-size:20px;
+    color: white;
+    text-align: center;
+    padding:5px;
+}
+#generalDiscussionTool:hover {
+    background-color: #7096F5;
+    cursor: pointer;
+}
+
+.newObjective {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Arial';
+    border-color: #5865E7;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px 0px #5865E7;
+
+    background-color: #5865E7;
+    font-size:14px;
+    color: white;
+    text-align: center;
+    padding:5px;
+}
+.newObjective:hover {
+    box-shadow: 2px 2px 5px 0px #032638;
+}

@@ -1,0 +1,163 @@
+.objectiveProposition {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: 'Arial';
+    border-color: #0EE755;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px 0px darkgrey;
+    width: 90%;
+}
+
+.objectiveProposition:hover {
+    cursor: pointer;
+}
+
+.objectiveDiscussion {
+    display:none;
+}
+
+.propositionNameAndArrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    background-color: #0EE755;
+    padding:5px;
+    box-shadow: 0px 2px 3px 0px darkgrey;
+}
+
+.propositionDescriptionAndMark {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+
+.propositionContentButton {
+    font-family: 'Arial';
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    border-color: palegreen;
+    background-color: palegreen;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+}
+
+
+
+.propositionDescription {
+    font-size: 14px;
+    margin: 0px;
+    padding:10px;
+}
+.propositionMarkSpan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    margin-left:10px;
+}
+
+.propositionMark {
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.propositionPros {
+    padding-top: 5px;
+    border-top-style: solid;
+    border-top-color: #0EE755;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-bottom-color: #0EE755;
+    margin-bottom: 5px;   
+}
+
+.propositionProsSpan {
+    font-size: 14px;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.propositionProsList {
+    font-size: 14px;
+    margin:0px;
+    margin-bottom: 5px;
+}
+
+.propositionConsSpan {
+    font-size: 14px;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.propositionConsList {
+    font-size: 14px;
+    margin:0px;
+    margin-bottom: 5px;
+}
+
+.propositionDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.addProsBtn {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #0EE755;
+    border-style: solid;
+    border-color: #0EE755;
+    border-radius: 15px;
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 5px;
+}
+
+.addConsBtn {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #0EE755;
+    border-style: solid;
+    border-color: #0EE755;
+    border-radius: 15px;
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 5px;
+}
+
+.propositionMarkSpan {
+    padding-top: 5px;
+    border-top-style: solid;
+    border-top-color: #0EE755;
+    border-top-width: 1px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding:10px;
+}
+
+.propositionMarkFormSpan > form {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    
+    margin-left: 0px;
+    margin-right: 0px;
+}

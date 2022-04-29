@@ -1,0 +1,14 @@
+.objectivesGrid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit,minmax(300px,500px));
+    grid-row-gap: 20px;
+    grid-column-gap: 25px;
+}
+
+.propositionsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,800px));
+    grid-row-gap: 20px;
+    grid-column-gap: 25px;
+}

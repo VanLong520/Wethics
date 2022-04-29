@@ -1,0 +1,56 @@
+#lexiconNavBarOption {
+    color: rgb(40,40,40);
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    max-width: 900px;
+}
+
+.card-header {
+    font-size: 35px;
+    text-align: center;
+}
+
+.defDiv {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.defDiv:last-child {
+    margin-bottom: 0px;
+}
+
+.defName {
+    color: steelblue;
+    font-size: 2em;
+}
+
+.lexiconAnchor {
+    color: steelblue;
+}
+
+.lexiconAnchor:hover {
+    text-decoration: none;
+}
+
+
+.bottomNavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bottomNavBar .btn-info {
+    margin-bottom: 30px;
+}
+
+:target {
+    background-color: lightcyan;
+    border-radius: 10px;
+}

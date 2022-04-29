@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charse="utf-8">
+    <title>{% block title %}Wethics{% endblock %}</title>
+    {% block stylesheets %}
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.css"/>
+        <link rel="stylesheet" href="'css/layout.css') }}">
+    {% endblock %}
+</head>
+<body>
+    
+    {################### Wethics Bar ###################}
+    <div id="wethicsHeader" class="row align-items-center col-sm-12">
+        <a id="mainLink" href="/" class=" text-white" style="margin-left:15px;">
+        {% block layoutTitle %}
+            Wethics
+        {% endblock %}
+        </a>
+
+        {% if username is defined %}
+        <div id="headerRight">
+            <button class="btn btn-secondary"><a href="/search" id="aWithoutColor">Recherche de cas</a></button>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="collapse" data-target="#navbarDropdownInfo" aria-haspopup="true" aria-expanded="false">
+                ?
+            </button>
+            <div id="navbarDropdownInfo" class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="/info">Guide de Wethics</a>
+                <a class="dropdown-item" href="/lexicon">Lexique</a>
+            </div>
+        </div>
+
+        <div class="dropdown" style="margin-left: 20px">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="collapse" data-target="#navbarDropdownProfil" aria-haspopup="true" aria-expanded="false">
+                Profil
+            </button>
+            <div id="navbarDropdownProfil" class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="/main">Mes cas éthiques</a>
+                <a class="dropdown-item" href="/profile">Mon profil</a>
+                <a class="dropdown-item" href="/logout">Déconnexion</a>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+
+    {################## Body ##################}
+    <div class="mainBlock" style="background-image: src('../images/wethics_wallpaper.jpg')">
+        <div class="mainContent">
+            {% for message in app.flashes('success') %}
+                <div class="alert alert-success">
+                    {{ message }}
+                </div>
+            {% endfor %}
+            {% for message in app.flashes('alert') %}
+                <div class="alert">
+                    {{ message }}
+                </div>
+            {% endfor %}
+
+        {% block body %}{% endblock %}
+
+
+        <div {#class="card-footer text-muted"#} style="margin-top:80px">
+        </div>
+        
+        </div>
+    </div>
+
+
+
+    {# javascripts #}
+    {% block javascripts %}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="{{ asset('js/bootstrap/bootstrap.bundle.js') }}"></script>
+        <script src="{{ asset('js/bootstrap/bootstrap.js') }}"></script>
+        <script src="{{ asset('js/layout.js') }}"></script>
+    {% endblock %}
+
+</body>
+</html>

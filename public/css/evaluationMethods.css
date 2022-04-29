@@ -1,0 +1,731 @@
+.evaluationMethodsListDiv {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.selectInputs {
+    border: solid 1px lightgrey;
+    margin: auto;
+    max-width: 900px;
+}
+
+.selectInputs h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.selectInputs hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.selectInputs .row {
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.methodDiv {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+
+#methodsSelectInput {
+    max-width: 350px;
+}
+
+#modelOfCareSelectInputDiv {
+    margin-right: 30px;
+}
+
+#modelOfCareSelectInput {
+    max-width: 350px;
+}
+
+optgroup {
+    font-style: normal;
+}
+
+.modelOfCareLink {
+    color: steelblue;
+}
+.modelOfCareLink:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contextOfCareLink {
+    color: steelblue;
+}
+.contextOfCareLink:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.evaluationMethodLink {
+    color: steelblue;
+}
+.evaluationMethodLink:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* GMFCS */
+.gmfcsTable {    
+    margin-right: 20px;
+}
+
+.gmfcsTable td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.gmfcsTable tr:nth-child(1) {background-color: skyblue;}
+.gmfcsTable tr:nth-child(2) {background-color: lightgreen;}
+.gmfcsTable tr:nth-child(3) {background-color: lightgoldenrodyellow;}
+.gmfcsTable tr:nth-child(4) {background-color: lightsalmon;}
+.gmfcsTable tr:nth-child(5) {background-color: lightcoral;}
+
+.gmfcsFormGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,300px));
+    grid-gap: 30px;
+}
+
+.gmfcsForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border: solid 1px lightgrey;
+    padding: 10px;
+}
+
+.gmfcsForm h6 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.gmfcsForm label {
+    margin-bottom: 0px;
+}
+
+.gmfcsForm .details {
+    color: grey;
+    font-size: 14px;
+}
+
+.gmfcsForm .gmfcsValidDiv {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+
+/* WST */
+.wstScoreTable {
+    width: 48%;
+    min-width: 800px;
+}
+
+.wstScoreTable td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.wstScoreTable td:first-child {
+    max-width: 200px;
+    text-align: center;
+}
+.wstScoreTable td:last-child {
+    max-width: 800px;
+}
+
+.wstScoreTable ul {
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+.wstScoreTable thead {background-color: lightgrey; font-size: 18px;}
+.wstScoreTable tbody tr:nth-child(1) {background-color: skyblue;}
+.wstScoreTable tbody tr:nth-child(2) {background-color: lightgreen;}
+.wstScoreTable tbody tr:nth-child(3) {background-color: lightgoldenrodyellow;}
+.wstScoreTable tbody tr:nth-child(4) {background-color: rgb(240,240,240);}
+.wstScoreTable tbody tr:nth-child(5) {background-color: rgb(240,240,240);}
+
+.wstSkillTable {
+    width: 48%;
+    min-width: 800px;
+}
+
+.wstSkillTable thead #tableTitleRow td {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.wstSkillTable tbody td:first-child{
+    font-size: 14px;
+}
+.wstSkillTable tbody td:not(:first-child){
+    font-size: 20px;
+    color: red;
+}
+
+.wstSkillTable td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.wstSkillTable:not(:first-child) {
+    text-align: center;
+}
+
+.wstSkillTable .topOfColumn {
+    font-weight: 700;
+}
+
+#totalRow td:first-child {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.wstSubjectManualTotal {color: black;}
+.wstCaregiverManualTotal {color: black;}
+.wstSubjectElectricTotal {color: black;}
+.wstCaregiverElectricTotal {color: black;}
+.wstScooterTotal {color: black;}
+
+
+
+/* EVS */
+.evsForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    border: solid 1px lightgrey;
+    padding: 10px;
+}
+
+.evsForm h6 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.evsForm label {
+    margin-bottom: 0px;
+}
+
+.evsForm .details {
+    color: grey;
+    font-size: 14px;
+}
+
+.evsForm .evsValidDiv {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+
+/* EVA */
+.evaForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    border: solid 1px lightgrey;
+    padding: 10px;
+}
+
+.evaForm .evaFormBody {
+    margin: 10px 10px 0px 10px;
+}
+
+.evaForm #painEva {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.evaForm .sliderticks {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+/* Source : https://stackoverflow.com/questions/33699852/show-tick-positions-in-custom-range-input */
+.evaForm .sliderticks p {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 1px;
+    background: #D3D3D3;
+    height: 10px;
+    line-height: 40px;
+    margin: 0 0 20px 0;
+}
+
+.evaForm .rangeSmileys {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.evaForm .rangeContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.evaForm .rangeDiv {
+    background: linear-gradient(to right,green,yellow 50%,red);
+}
+
+.evaForm .rangeLabels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.evaForm .rangeLabels label {
+    max-width: 15%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.evaForm h6 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.evaForm label {
+    margin-bottom: 0px;
+}
+
+.evaForm .details {
+    color: grey;
+    font-size: 14px;
+}
+
+.evaForm .evaValidDiv {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+
+/* Algoplus */
+/* .algoplusTable{
+    max-width: 600px;
+}
+
+.algoplusTable td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.algoplusTable thead {
+    text-align: center;
+}
+
+.algoplusTable h6 {
+    width: 100%;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.algoplusTable p {
+    margin: 0px;
+}
+
+.algoplusTable td:first-child {width: 70%;}
+.algoplusTable td:nth-child(2) {width: 15%;}
+.algoplusTable td:nth-child(3) {width: 15%;} */
+
+.algoplusForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    border: solid 1px lightgrey;
+    padding: 10px;
+}
+
+.algoplusForm h6 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.algoplusForm label {
+    margin-bottom: 0px;
+}
+
+.algoplusForm .details {
+    color: grey;
+    font-size: 14px;
+}
+
+.algoplusForm .algoplusValidDiv {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+
+
+/* GONESSE */
+.glasgowTable td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.glasgowTable tr:nth-child(1) {background-color: skyblue;}
+.glasgowTable tr:nth-child(2) {background-color: lightgreen;}
+.glasgowTable tr:nth-child(3) {background-color: lightgoldenrodyellow;}
+.glasgowTable tr:nth-child(4) {background-color: lightsalmon;}
+
+.glasgowFormGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,300px));
+    grid-gap: 30px;
+}
+
+.glasgowSubForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border: solid 1px lightgrey;
+    padding: 10px;
+}
+
+.glasgowSubForm h6 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.glasgowSubForm label {
+    margin-bottom: 0px;
+}
+
+.glasgowSubForm .details {
+    color: grey;
+    font-size: 14px;
+}
+
+
+/* GIR */
+.girTable td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.girTable td:first-child {
+    max-width: 200px;
+    text-align: center;
+}
+.girTable td:last-child {
+    max-width: 800px;
+}
+.girTable ul {
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+.girTable tr:nth-child(1) {background-color: skyblue;}
+.girTable tr:nth-child(2) {background-color: lightgreen;}
+.girTable tr:nth-child(3) {background-color: lightgoldenrodyellow;}
+.girTable tr:nth-child(4) {background-color: lightsalmon;}
+.girTable tr:nth-child(5) {background-color: lightcoral;}
+.girTable tr:nth-child(6) {background-color: tomato;}
+
+
+/* AGGIR */
+.aggirTable td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tableSectionTitle {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+
+/* BRADEN */
+.bradenTable td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.bradenTable tr:nth-child(1) {background-color: skyblue;}
+.bradenTable tr:nth-child(2) {background-color: lightgreen;}
+.bradenTable tr:nth-child(3) {background-color: lightgoldenrodyellow;}
+.bradenTable tr:nth-child(4) {background-color: lightsalmon;}
+
+.bradenFormGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,300px));
+    grid-gap: 30px;
+}
+
+.bradenSubForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border: solid 1px lightgrey;
+    padding: 10px;
+}
+
+.bradenSubForm h6 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+/* COLIN-LEMOIGNE */
+.colinLemoigneTable td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.colinLemoigneTable tr:nth-child(1) {background-color: skyblue;}
+.colinLemoigneTable tr:nth-child(2) {background-color: lightgreen;}
+.colinLemoigneTable tr:nth-child(3) {background-color: lightgoldenrodyellow;}
+.colinLemoigneTable tr:nth-child(4) {background-color: lightsalmon;}
+
+.colinLemoigneFormGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,300px));
+    grid-gap: 30px;
+}
+
+.colinLemoigneSubForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border: solid 1px lightgrey;
+    padding: 10px;
+}
+
+.colinLemoigneSubForm h6 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.colinLemoigneSubForm label {
+    margin-bottom: 0px;
+}
+
+.colinLemoigneSubForm .details {
+    color: grey;
+    font-size: 14px;
+}
+
+
+/* GONESSE */
+.gonesseTable td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.gonesseTable tr:nth-child(1) {background-color: skyblue;}
+.gonesseTable tr:nth-child(2) {background-color: lightgreen;}
+.gonesseTable tr:nth-child(3) {background-color: lightgoldenrodyellow;}
+.gonesseTable tr:nth-child(4) {background-color: lightsalmon;}
+
+.gonesseFormGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,300px));
+    grid-gap: 30px;
+}
+
+.gonesseSubForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border: solid 1px lightgrey;
+    padding: 10px;
+}
+
+.gonesseSubForm h6 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.gonesseSubForm label {
+    margin-bottom: 0px;
+}
+
+.gonesseSubForm .details {
+    color: grey;
+    font-size: 14px;
+}
+
+
+/* NORTON */
+.nortonTable td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.nortonTable tr:nth-child(1) {background-color: skyblue;}
+.nortonTable tr:nth-child(2) {background-color: lightgreen;}
+.nortonTable tr:nth-child(3) {background-color: lightgoldenrodyellow;}
+.nortonTable tr:nth-child(4) {background-color: lightsalmon;}
+
+.nortonFormGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,300px));
+    grid-gap: 30px;
+}
+
+.nortonSubForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border: solid 1px lightgrey;
+    padding: 10px;
+}
+
+.nortonSubForm h6 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nortonSubForm label {
+    margin-bottom: 0px;
+}
+
+.nortonSubForm .details {
+    color: grey;
+    font-size: 14px;
+}
+
+
+/* WATERLOW */
+.waterlowTable td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.waterlowTable tr:nth-child(1) {background-color: skyblue;}
+.waterlowTable tr:nth-child(2) {background-color: lightgreen;}
+.waterlowTable tr:nth-child(3) {background-color: lightgoldenrodyellow;}
+.waterlowTable tr:nth-child(4) {background-color: lightsalmon;}
+
+.waterlowFormGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,300px));
+    grid-gap: 30px;
+}
+
+
+.waterlowSubForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border: solid 1px lightgrey;
+    padding: 10px;
+}
+
+.waterlowSubForm h6 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+/* MMSE */
+.mmseFormGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,400px));
+    grid-gap: 30px;
+}
+
+.mmseSubForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border: solid 1px lightgrey;
+    padding: 10px;
+}
+
+.mmseSubForm h6 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.mmseSubForm p {
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.mmseSubForm table td {
+    border-collapse: collapse;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+.mmseSubForm label {
+    margin-bottom: 0px;
+}
+
+.mmseSubForm .details {
+    color: grey;
+    font-size: 14px;
+}
+
+.mmseLearningSubForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border: solid 1px lightgrey;
+    padding: 10px;
+}
+
+.mmseLearningSubForm h6 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.mmseLearningSubForm p {
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.mmseLearningSubForm table td {
+    border-collapse: collapse;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+.mmseLearningSubForm label {
+    margin-bottom: 0px;
+}
+
+.mmseLearningSubForm .details {
+    color: grey;
+    font-size: 14px;
+}

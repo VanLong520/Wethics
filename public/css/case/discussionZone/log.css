@@ -1,0 +1,14 @@
+
+.logDiv{
+    font-family: 'Arial';
+    font-size : 18px;
+    overflow-y: scroll;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}

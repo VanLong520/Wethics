@@ -1,0 +1,307 @@
+/*form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: 'Arial';
+    font-size: 18px;
+    color: black;
+}
+
+h3 {
+    font-family: 'Arial';
+    font-size: 20px;
+    color: black;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-left: 0px;
+    margin-bottom: 5px;
+}
+
+li > div {
+    display: flex;
+    flex-direction: row;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+#newCaseTitle {
+    font-family: 'Arial';
+    font-size: 50px;
+    font-weight: bold;
+    color: turquoise;
+}*/
+
+label {
+    width: 220px;
+}
+
+label.required:not([for*="ethic_case_approach"]):after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+}
+.approachLabel:after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+}
+
+.primary-card {
+    margin-top : 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secondary-card {
+    margin-bottom : 20px;
+}
+
+/*.primary-card-header {
+    background-color: dodgerblue;
+    color: white;
+}*/
+
+.card-body {
+    padding-bottom: 0px;
+}
+
+.secondary-card-header {
+    background-color : ivory;
+}
+
+.btn {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+form {
+    width: 100%;
+}
+
+#newCaseTitle {
+    width: 100%;
+    background-color: darkturquoise;
+    font-family: 'Arial';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input {
+    font-size: 20px;
+}
+
+.newCaseSection {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.newCaseSectionTitle {
+    width: 100%;
+    background-color: ivory;
+    font-family: 'Arial';
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.newCaseSectionContent {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    padding-top: 5px;
+    border-style: solid;
+    border-top-style: none;
+    border-color: grey;
+    border-width: 1px;
+}
+
+.inputsColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.formInfosSpan {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+    justify-content: space-between;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    margin-top: 10px;
+}
+
+.formAddInfosSpan {
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.anonymizationSpan {
+    display: flex;
+    flex-direction: column;
+}
+
+.anonymizationSpan > .form-group {
+    margin: 0px;
+}
+
+.anonymizationSpan label {
+    min-width: 310px;    
+}
+
+.anonymizationSpan input {
+    margin-top: 9px;
+}
+
+.anonymizationSpan > label {
+    color: grey;
+}
+
+small {
+    color: grey;
+}
+
+.approachLabel {
+    margin: 0px;
+    margin-top: 20px;;
+}
+fieldset {
+    margin-top:0px;
+}
+
+/*
+.formPatientSpan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.formPatientSpan > input[type="text"] {
+    width: 250px;
+}
+
+.formAddPatientSpan {
+    margin-left: 7.5%;
+    margin-top: 10px;
+}*/
+
+.formGuestLi {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.formGuestDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: 'Arial';
+    font-size: 20px;
+    /*font-weight: bold;*/
+    margin-right: 10px;
+}
+
+.addBtn {
+    font-family: 'Arial';
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: darkturquoise;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 1px;
+}
+
+#caseNameInput , #caseDescriptionInput {
+    width: 70%;
+}
+
+
+#patientInputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#guestSectionContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#submitSectionContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input[type="submit"] {
+    font-family: 'Arial';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    /*background-color: darkturquoise;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;*/
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 150px;
+    font-size: 20px;
+}
+
+.form-check:first-child {
+    margin-top: 0px;
+}
+
+.form-check-label {
+    font-size: 20px;
+}
+
+.form-check-input {
+    margin-top: 8px;
+}
+
+legend {
+    font-size: 20px;
+}

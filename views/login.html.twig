@@ -1,0 +1,38 @@
+{% extends "general/layout.html.twig" %}
+
+{% block stylesheets %}
+{{parent()}}
+<link rel="stylesheet" href="css/connexion.css">
+{% endblock %}
+
+{% block body %}
+<span id="welcome_span">Bienvenue sur Wethics!</span>
+<p id="welcome_p">Wethics est une application Web permettant de mettre en relation des professionnels issus du domaine médical avec leurs patients et les familles de ces derniers, dans le but de résoudre des cas éthiques.</p>
+<div class="bunch_of_blocks">
+    <div class="option_block">
+        <span class="option_block_title">Connexion</span>
+        <p class="guide_p">Si vous êtes déjà membre de Wethics, vous pouvez accéder à votre espace personnel ici.</p>
+        
+        
+
+    
+        <form action="/login"  method="POST">
+            
+            <div class="input_block">
+                <label for="email">Email</label>
+                <input type="email" name="email" required>
+            </div>
+            <div class="input_block">
+                <label for="password">Mot de passe</label>
+                <input type="password" name="password" required>
+            </div>
+            <input type="submit" value="Confirmer">
+        </form>
+    </div>
+    <div class="option_block">
+        <span class="option_block_title">Inscription</span>
+        <p class="guide_p">Si vous n'êtes pas encore membre de Wethics, cliquez ici pour vous inscrire.</p>
+        <a href="/register" class="register_link">S'inscrire</a>
+    </div>
+</div>
+{% endblock %}

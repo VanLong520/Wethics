@@ -1,0 +1,44 @@
+body {
+    font-family: 'Sans-serif';
+}
+
+.header {
+    border: solid 1px black;
+    text-align: center;
+}
+
+.presentation > h2 {
+    margin: 0px;
+    margin-top: 20px;
+}
+
+
+/* Lexicon */
+.defDiv {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.defDiv:last-child {
+    margin-bottom: 0px;
+}
+
+.defName {
+    color: steelblue;
+    font-size: 20px;
+}
+
+.lexiconAnchor {
+    color: steelblue;
+}
+
+.lexiconAnchor:hover {
+    text-decoration: none;
+}
+
+
+/* Step by step example */
+
+img {
+    max-width: 100%;
+}

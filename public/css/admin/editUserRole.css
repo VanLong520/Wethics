@@ -1,0 +1,68 @@
+form {
+    padding: 20px;
+}
+
+.required::after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+}
+
+#warningContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fc9c9c;
+    border: solid #fc9c9c;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#warningDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    
+    padding: 5px;
+}
+
+#warningSign{
+    height: 100%;
+    font-size: 30px;
+}
+
+#warningMsg {
+    height: 100%;
+    padding-left: 5px;
+}
+
+#confirmWarningBtn {
+    width: 120px;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    color: white;
+    background-color: grey;
+    border: solid 1px 5px grey;
+}
+
+
+.card {
+    max-width: 600px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.adminRole:after {
+    content: "(Admin.)";
+    font-size: 12px;
+    font-weight: bold;
+    color: slategrey;
+}

@@ -1,0 +1,81 @@
+.mainRow {
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.propositionContainer {
+    width: 50%;
+}
+
+.discussionContainer {
+    width: 40%;
+}
+
+.discussionContainer > h1 {
+    text-align: center;
+}
+
+span[class="container"] {
+    padding-top: 0px;
+}
+
+.messagesContainer {
+    padding: 10px;
+    height: 500px;
+    background-color: #f8f9fa;
+    overflow-y: scroll;
+    border: solid 1px rgba(0, 0, 0, 0.125);
+    border-radius: 10px;
+}
+
+
+.lexiconLink {
+    display: flex;
+    font-size: 1.1em;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(70,130,180,0.8);
+    margin-left: 10px;
+    padding: 3px;
+    width: calc(1em + 6px);
+    height: calc(1em + 6px);
+    border-radius: 50%;
+    border: solid 1px steelblue;
+}
+.lexiconLink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+.objectiveTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.custom-range {
+    border-style: none;
+}
+
+
+.headerInfos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.propName {
+    font-size: 20px;
+}
+
+#hasVoted {
+    margin-bottom: 5px;
+}
+
+#buttonsSpan {
+    padding-bottom: 5px;
+}
